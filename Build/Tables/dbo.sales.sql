@@ -1,10 +1,10 @@
 CREATE TABLE [dbo].[sales]
 (
-[stor_id] [char] (4) COLLATE Latin1_General_CI_AS NOT NULL,
-[ord_num] [varchar] (20) COLLATE Latin1_General_CI_AS NOT NULL,
+[stor_id] [char] (10) COLLATE Latin1_General_CI_AS NOT NULL,
+[ord_num] [nvarchar] (20) COLLATE Latin1_General_CI_AS NOT NULL,
 [ord_date] [datetime] NOT NULL,
 [qty] [smallint] NOT NULL,
-[payterms] [varchar] (12) COLLATE Latin1_General_CI_AS NOT NULL,
+[payterms] [nvarchar] (12) COLLATE Latin1_General_CI_AS NOT NULL,
 [title_id] [dbo].[tid] NOT NULL
 )
 GO
