@@ -1,0 +1,1 @@
+[{"discounttype":"Initial Customer","discount":{"$numberDecimal":"10.50"}},{"discounttype":"Volume Discount","lowqty":{"$numberInt":"100"},"highqty":{"$numberInt":"1000"},"discount":{"$numberDecimal":"6.70"}},{"discounttype":"Customer Discount","stor_id":"8042","discount":{"$numberDecimal":"5.00"}}]
