@@ -1,9 +1,9 @@
 CREATE TABLE [dbo].[employee]
 (
 [emp_id] [dbo].[empid] NOT NULL,
-[fname] [nvarchar] (20) COLLATE Latin1_General_CI_AS NOT NULL,
+[fname] [nvarchar] (40) COLLATE Latin1_General_CI_AS NOT NULL,
 [minit] [char] (1) COLLATE Latin1_General_CI_AS NULL,
-[lname] [nvarchar] (30) COLLATE Latin1_General_CI_AS NOT NULL,
+[lname] [nvarchar] (60) COLLATE Latin1_General_CI_AS NOT NULL,
 [job_id] [smallint] NOT NULL DEFAULT ((1)),
 [job_lvl] [tinyint] NULL DEFAULT ((10)),
 [pub_id] [char] (10) COLLATE Latin1_General_CI_AS NOT NULL DEFAULT ('9952'),

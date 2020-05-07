@@ -1,7 +1,7 @@
 CREATE TABLE [dbo].[jobs]
 (
 [job_id] [smallint] NOT NULL IDENTITY(1, 1),
-[job_desc] [nvarchar] (50) COLLATE Latin1_General_CI_AS NOT NULL DEFAULT ('New Position - title not formalized yet'),
+[job_desc] [nvarchar] (200) COLLATE Latin1_General_CI_AS NOT NULL DEFAULT ('New Position - title not formalized yet'),
 [min_lvl] [tinyint] NOT NULL,
 [max_lvl] [tinyint] NOT NULL
 )

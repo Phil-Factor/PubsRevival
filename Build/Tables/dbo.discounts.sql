@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[discounts]
 (
-[discounttype] [nvarchar] (40) COLLATE Latin1_General_CI_AS NOT NULL,
+[discounttype] [nvarchar] (80) COLLATE Latin1_General_CI_AS NOT NULL,
 [stor_id] [char] (10) COLLATE Latin1_General_CI_AS NULL,
 [lowqty] [smallint] NULL,
 [highqty] [smallint] NULL,

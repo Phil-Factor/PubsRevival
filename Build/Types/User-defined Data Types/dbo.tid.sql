@@ -1,2 +1,2 @@
-CREATE TYPE [dbo].[tid] FROM nvarchar (6) NOT NULL
+CREATE TYPE [dbo].[tid] FROM varchar (6) NOT NULL
 GO

@@ -1,11 +1,11 @@
 CREATE TABLE [dbo].[authors]
 (
 [au_id] [dbo].[id] NOT NULL,
-[au_lname] [nvarchar] (40) COLLATE Latin1_General_CI_AS NOT NULL,
-[au_fname] [nvarchar] (20) COLLATE Latin1_General_CI_AS NOT NULL,
+[au_lname] [nvarchar] (80) COLLATE Latin1_General_CI_AS NOT NULL,
+[au_fname] [nvarchar] (40) COLLATE Latin1_General_CI_AS NOT NULL,
 [phone] [char] (12) COLLATE Latin1_General_CI_AS NOT NULL DEFAULT ('UNKNOWN'),
-[address] [nvarchar] (40) COLLATE Latin1_General_CI_AS NULL,
-[city] [nvarchar] (20) COLLATE Latin1_General_CI_AS NULL,
+[address] [nvarchar] (80) COLLATE Latin1_General_CI_AS NULL,
+[city] [nvarchar] (40) COLLATE Latin1_General_CI_AS NULL,
 [state] [char] (2) COLLATE Latin1_General_CI_AS NULL,
 [zip] [char] (5) COLLATE Latin1_General_CI_AS NULL,
 [contract] [bit] NOT NULL
