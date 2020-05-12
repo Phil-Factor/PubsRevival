@@ -24,12 +24,6 @@ IF @version <> '2.1.5'
 GO
 IF @@Error <> 0 SET NOEXEC ON;
 GO
-PRINT N'Dropping constraints from [dbo].[discounts]';
-GO
-ALTER TABLE dbo.discounts DROP CONSTRAINT PK_discounts;
-GO
-IF @@Error <> 0 SET NOEXEC ON;
-GO
 PRINT N'Altering [dbo].[pub_info]';
 GO
 IF @@Error <> 0 SET NOEXEC ON;
